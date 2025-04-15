@@ -1,0 +1,75 @@
+/* Audio Recorder Component Styling */
+.audio-recorder-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* Heading Style */
+  .audio-recorder-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  /* Record Button Styling */
+  .record-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .record-button.bg-red {
+    background-color: #f44336; /* Red for stop */
+  }
+  
+  .record-button.bg-blue {
+    background-color: #2196F3; /* Blue for start */
+  }
+  
+  .record-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+  }
+  
+  .record-button:focus {
+    outline: none;
+  }
+  
+  /* Send Button Styling */
+  .send-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 16px;
+  }
+  
+  .send-button:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+  }
+  
+  .send-button:focus {
+    outline: none;
+  }
+  
+  /* Audio Player */
+  audio {
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 6px;
+  }
+  
