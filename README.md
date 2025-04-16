@@ -1,6 +1,4 @@
-# Sign-Flow
-
-# 🤟 Sign Flow: Real-Time Sign Language to Speech Interface
+# 🤟 Sign Flow: Full-Stack ASL Interpreter with Sentence Buffering and Voice Output
 
 *Bridging gestures to voice — and voice to gestures — with AI-powered ASL interpretation.*
 
